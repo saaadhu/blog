@@ -1,4 +1,6 @@
+---
 indexes:
   tag: 'tags'
-  group: 'groups'
+  category: 'categories'
 baseurl: 'http://blog.senthilthecoder.com'
+---
