@@ -1,0 +1,12 @@
+{{ template "chrome/header.html" . }}
+{{ $baseurl := .Site.BaseUrl }}
+
+  <h1 id="title">{{ .Title }}</h1>
+  <div>
+        <article id="content">
+           {{ .Content }}
+        </article>
+  </div>
+  <p><span class="glyphicon glyphicon-time"></span> {{ .Date.Format "Mon Jan 2, 2006" }}</p>
+
+{{ template "chrome/footer.html" . }}

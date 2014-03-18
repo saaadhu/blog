@@ -1,10 +1,9 @@
 ---
-title: LTO and the linker command line
+title: "LTO and the linker command line"
+description: "How to properly use LTO when linking"
 tags: ["toolchain", "linker", "lto"]
-date: 2014-03-17
-categories:
-    - "software"
-    - "toolchain"
+date: "2014-03-17"
+categories: ["software", "toolchain"]
 ---
 
 If you're using GCC's [LTO](http://gcc.gnu.org/wiki/LinkTimeOptimization) feature, make sure you repeat the compiler flags when linking. So, if you compile code with `-Os -ffunction-sections`, make sure you pass the same flags to the gcc driver when linking.
