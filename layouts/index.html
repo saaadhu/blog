@@ -1,6 +1,8 @@
 {{ template "chrome/header.html" . }}
 {{ template "chrome/subheader.html" . }}
+<div class="span9 main">
        {{ range first 10 .Data.Pages }}
         {{ .Render "summary"}}
     {{ end }} 
+</div>
 {{ template "chrome/footer.html" . }}
