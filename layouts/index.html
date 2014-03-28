@@ -1,4 +1,5 @@
 {{ template "chrome/header.html" . }}
+{{ template "chrome/subheader.html" . }}
        {{ range first 10 .Data.Pages }}
         {{ .Render "summary"}}
     {{ end }} 
