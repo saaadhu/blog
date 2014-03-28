@@ -3,4 +3,5 @@ indexes:
   tag: 'tags'
   category: 'categories'
 baseurl: 'http://blog.senthilthecoder.com'
+title:  'Senthil Kumar Selvaraj'
 ---
