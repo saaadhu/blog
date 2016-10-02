@@ -8,10 +8,10 @@ categories: ["software", "toolchain", "gccdev"]
 
 Say you want to add your own command line option to the gcc driver. It's pretty
 easy to do it as long as it is a number or a bitmask - just add an entry to your 
-target's opt file, and gcc's option handling mechanism[https://gcc.gnu.org/onlinedocs/gccint/Option-file-format.html] 
+target's opt file, and gcc's [option handling mechanism](https://gcc.gnu.org/onlinedocs/gccint/Option-file-format.html])
 takes cares of it all.
 
-For example, this is how the avr target's mn-flash option is described in avr.opt[https://github.com/gcc-mirror/gcc/blob/master/gcc/config/avr/avr.opt]
+For example, this is how the avr target's mn-flash option is described in [avr.opt](https://github.com/gcc-mirror/gcc/blob/master/gcc/config/avr/avr.opt)
 
     mn-flash=
     Target RejectNegative Joined Var(avr_n_flash) UInteger Init(-1)
@@ -47,7 +47,7 @@ Enter the Defer option attribute. This option tells gcc to keep its hands off
 attempting to parse this argument. All it does is pack the value(s) in a vector
 and hand them over to you, to do as you please.
 
-Here's an example from ia64.opt[https://github.com/gcc-mirror/gcc/blob/master/gcc/config/ia64/ia64.opt]
+Here's an example from [ia64.opt](https://github.com/gcc-mirror/gcc/blob/master/gcc/config/ia64/ia64.opt)
 
     mfixed-range=
     Target RejectNegative Joined Var(ia64_deferred_options) Defer
