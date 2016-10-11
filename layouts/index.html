@@ -1,8 +1,0 @@
-{{ template "chrome/header.html" . }}
-{{ template "chrome/subheader.html" . }}
-<div class="col-md-10">
-       {{ range first 10 .Data.Pages }}
-        {{ .Render "summary"}}
-    {{ end }} 
-</div>
-{{ template "chrome/footer.html" . }}

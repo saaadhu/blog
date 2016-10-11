@@ -1,0 +1,70 @@
+## Basic Configuration
+
+baseurl = "http://senthilthecoder.com"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Senthil Kumar Selvaraj"
+title = "Senthil Kumar Selvaraj"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "blogsenthilthecoder" # Comment out to disable Disqus.
+#googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Senthil Kumar Selvaraj"
+intro = "Curious developer"
+description = "Lately into toolchain hacking"
+authorImage = "headshot.png"
+dateFormat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Senthil Kumar Selvaraj's personal website and blog"
+keywords = "blog,senthil,toolchain,gcc,binutils"
+
+## Social Accounts
+[params.social]
+github = "saaadhu"
+#linkedIn = "<username>"
+#twitter = "<username>"
+#facebook = "<username>"
+#google = "<username>"
+email = "senthil.thecoder@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2016.Senthil Kumar Selvaraj." 
+poweredBy = false
+hightlightJS = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "gcc work"
+    identifier = "gccwork"
+    weight = 150
+    url = "/gccwork/"
+[[menu.main]]
+    name = "binutils work"
+    identifier = "binutilswork"
+    weight = 160
+    url = "/binutilswork/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about/"
