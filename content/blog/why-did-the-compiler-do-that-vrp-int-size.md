@@ -1,6 +1,6 @@
 ---
 title: "Why did the compiler do that - the one with VRP and integer size"
-description: "How VPR and avr's 16 bit integers make pr69941.c fail"
+description: "How VRP and avr's 16 bit integers make pr69941.c fail"
 tags: ["toolchain", "gcc", "optimizations", "wdtcdt", "dejagnu"]
 date: "2016-10-06"
 categories: ["software", "toolchain", "gccdev", "compiler optimizations"]
