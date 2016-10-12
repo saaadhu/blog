@@ -1,6 +1,6 @@
 ---
 title: "Thin LTO and compile time errors"
-description: "How thin LTO breaks compiler errors"
+description: "How thin LTO breaks gcc compile tests"
 tags: ["toolchain", "gcc", "lto", "dejagnu"]
 date: "2016-10-04"
 categories: ["software", "toolchain", "gccdev"]
