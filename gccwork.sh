@@ -1,9 +1,10 @@
-FILENAME=content/gccwork/index.md
+FILENAME=content/project/gccwork.md
 cat  > $FILENAME <<HEADER
 ---
 title: "GCC commits and patches"
 tags: ["toolchain", "gcc", "binutils", "avr"]
 date: "$(date)"
+summary: "My GCC commits and patches"
 categories: ["software", "toolchain"]
 ---
 HEADER

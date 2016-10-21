@@ -1,10 +1,10 @@
----
-title: "Why did the compiler do that - the one with VRP and integer size"
-description: "How VRP and avr's 16 bit integers make pr69941.c fail"
-tags: ["toolchain", "gcc", "optimizations", "wdtcdt", "dejagnu"]
-date: "2016-10-06"
-categories: ["software", "toolchain", "gccdev", "compiler optimizations"]
----
++++
+title = "Why did the compiler do that - the one with VRP and integer size"
+description = "How VRP and avr's 16 bit integers make pr69941.c fail"
+tags = ["toolchain", "gcc", "optimizations", "wdtcdt", "dejagnu"]
+date = "2016-10-06"
+categories = ["software", "toolchain", "gccdev", "compiler optimizations"]
++++
 
 Here's a simple program - it right shifts a signed int by 9 bits, 
 truncates it to an unsigned char, and returns 1 or 0 after comparing 
